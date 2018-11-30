@@ -3,10 +3,13 @@ function triangles() {
   var b = document.getElementById("b").value;
   var c = document.getElementById("c").value;
   if ((a === b) && (a === c)) {
-      }else if ((a === b) << (b === c) >> (a === c)) {
+  }else if ((a === b) << (b === c) >> (a === c)) {
           alert ("Isosceles ");
       }
        else {
-           alert ("Scaline");
+           alert ("Scalene");
       alert ("Equilateral");
+      alert ("Isoscele");
+      alert ("Not a triangle");
+    }
    }
