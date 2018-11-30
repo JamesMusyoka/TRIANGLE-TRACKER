@@ -5,6 +5,8 @@ A web app that allows a user identify the types of triangles by inputing the len
 ## Setup/Installation Requirements
 * Github
 * Browser
+click on my link:https://github.com/JamesMusyoka/TRIANGLE-TRACKER.git
+
 ## Known Bugs
 Many websites still in progress.
 ## Technologies Used
