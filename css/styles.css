@@ -1,4 +1,4 @@
-/* * {
+* {
   color: green;
 }
 body {
@@ -6,7 +6,7 @@ background-image: url("https://image.shutterstock.com/image-vector/abstract-back
 background-repeat: no-repeat;
 background-size: cover;
 }
-.container{
+/* .container{
   border:2px solid black;
   padding:25px;
   align-self: center;
