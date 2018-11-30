@@ -21,4 +21,6 @@ h1 {
   float: center;
   font-style: oblique;
   font-family: sans-serif;
+  align-self:center;
+  text-align: center;
 }
