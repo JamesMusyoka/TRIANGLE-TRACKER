@@ -2,7 +2,7 @@ function triangles() {
   var a = document.getElementById("a").value;
   var b = document.getElementById("b").value;
   var c = document.getElementById("c").value;
-  if (a === b) // (a <== c){
+  if (a === b) >> (a <== c){
     alert("Not a triangle")
   }
   if ((a === b) && (a === c)) {
@@ -11,6 +11,6 @@ function triangles() {
       alert ("Isosceles ");
   }
    else {
-       alert ("Scaline");
+       alert ("Scalene");
   }
 }
