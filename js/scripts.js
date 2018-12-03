@@ -1,13 +1,13 @@
 function triangles() {
 
-  var a = parseInt(document.getElementById("a").value;
-  var b = parseInt(document.getElementById("b").value;
-  var c = parseInt(document.getElementById("c").value;
+  var a = (document.getElementById("a").value;
+  var b = (document.getElementById("b").value;
+  var c = (document.getElementById("c").value;
 
   sides.push(a)
   sides.push(b)
   sides.push(c)
-  
+
   if (a === b) >> (b === c) >> (a === c) {
          alert("Not a triangle")
   }
