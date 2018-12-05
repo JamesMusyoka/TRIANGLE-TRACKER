@@ -1,48 +1,31 @@
 <!DOCTYPE html>
-<html>
- <head>
-   <link href="css/styles.css" rel="stylesheet" type="text/css">
-<script type="text/javascript" src="js/scripts.js"></script>
-   <title>Triangle Tracker IP</title>
- </head>
- <body>
-  <background-image src="https://image.shutterstock.com/image-vector/abstract-background-geometric-pattern-eps10-450w-277234067.jpg">
-    <h1>TRACKER IS BACK</h1>
-    <p>This is to show how i can use <strong>JavaScript in Geometric sums</strong>and also the skills i have in the JS so far.</p>
-   <div class="container">
-     <h1>TRIANGLE-TRACKER</h1>
-
-
-        <form id="triangle-tracker">
-                <div class="form-group">
-                <label for="a">ENTER A:</label>
-                <input id="a" type="text">
-    </div>
-          <br>
-          <div class="form-group">
-              <label for="b">ENTER B:</label>
-              <input id="b" type="text">
-          </div>
-          <br>
-         <div class="form-group">
-            <label for="c">ENTER C:</label>
-            <input id="c" type="text">
-        </div>
-        <br>
-          <button type="submit" onclick="triangles()">PRESS ENTER</button>
-       </form>
-    </div>
-       <p>
-            <ol>
-              <li>The Equilateral triangle has three <strong>congruent side</strong> and three <strong>congruent angles.</strong></li>
-              <image src="Images/slide_3.jpg" height="100px" width="120px">
-              <li>The Isosceles triangle has <strong>two equal sides and two equal angles.</strong></li>
-              <image src="Images/Isoscele theorom.jpg" height="100px" width="120px">
-              <li>Scalene has <strong>NO</strong> congruent sides and angles.</li>
-              <image src="Images/image scalene.jpg" height="100px" width="120px">
-            </ol>
-       </p>
-
-
-  </body>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link href="css/styles.css" rel="stylesheet" type="text/css">
+    <script type="text/javascript" src="js/scripts.js"></script>
+    <title></title>
+  </head>
+  <body>
+    <background-image src="https://image.shutterstock.com/image-vector/abstract-background-geometric-pattern-eps10-450w-277234067.jpg">
+      <!-- <div class="james">
+         <h1>Triangle Tracker Website</h1>
+         <p>This is a website that checks what type of a triangle you inqured and returns the result.</p>
+        <h1>Here is an aexplanation about the triangles</h1>
+        <p>An <em>equilateral</strong> triangle with three equal sides.</p>
+        <image src="Images/slide_3.jpg" height="100px" width="120px">
+       <p>An <em>isosceles</strong> triangle with at least two equal sides.</p>
+         <image src="Images/Isoscele theorom.jpg" height="100px" width="120px">
+      <p>An <em>scalene</strong> triangle with no equal sides.</>
+        <image src="Images/image scalene.jpg" height="100px" width="120px">
+      <p><em>If the sum of the lengths of any two sides of a triangle is less than or equal to the length of the third side, this CANNOT be a triangle hence NOT a triangle will be returned</em></p>
+    </div> -->
+    <div class="container">
+     <h2>INPUT BELOW TO CHECK</h2>
+     <p>enter A: <input type="numbers" id="a"></p>
+     <p>enter B: <input type="numbers" id="b"></p>
+     <p>enter C: <input type="numbers" id="c"></p>
+     <button type="submit"  onclick="triangles()">FIND OUT</button>
+   </div>
+</body>
 </html>
