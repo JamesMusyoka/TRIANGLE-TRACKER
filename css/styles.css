@@ -1,12 +1,10 @@
-* {
+body{
+  background-image: url("https://image.shutterstock.com/image-vector/abstract-background-geometric-pattern-eps10-450w-277234067.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.container {
   color: green;
-}
-/* body {
-background-image: url("https://image.shutterstock.com/image-vector/abstract-background-geometric-pattern-eps10-450w-277234067.jpg");
-background-repeat: no-repeat;
-background-size: cover;
-}
-.container{
   border:2px solid black;
   padding:25px;
   align-self: center;
@@ -16,15 +14,6 @@ background-size: cover;
   margin-left: 30%;
   margin-right:30%;
 }
-h1 {
-  color: red;
-  float: center;
-  font-style: oblique;
-  font-family: sans-serif;
-  align-self:center;
-  text-align: center;
-}
-p {
+/* .james {
   color: white;
-  text-align: left;
 } */
