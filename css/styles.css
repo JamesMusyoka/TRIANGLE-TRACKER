@@ -1,4 +1,4 @@
-/* body{
+body{
   background-image: url("https://image.shutterstock.com/image-vector/abstract-background-geometric-pattern-eps10-450w-277234067.jpg");
   background-repeat: no-repeat;
   background-size: cover;
@@ -13,12 +13,12 @@
   margin-top: 12%;
   margin-left: 30%;
   margin-right:30%;
-} */
+}
 h1,h2 {
   font-size: 20px;
   font-family: sans-serif;
   font-style: oblique;
 }
-/* .james {
+.james {
   color: white;
-} */
+}
